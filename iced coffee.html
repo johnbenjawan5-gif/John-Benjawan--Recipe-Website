@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iced Coffee</title>
+<style>
+    body {
+        margin: 0;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        background-image: url("iced coffee.jpeg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .back-btn {
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        width: 250;
+        height: 45px;
+        background:rgba(0, 0, 0, 0.6);
+        color: white;
+        text-decoration: none;
+        font-size: 22px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        transition: 0.3s ease;
+        z-index: 1000;
+    }
+
+    .recipe-container {
+        transform: translateY(80px);
+        max-width: 700px;
+        margin: auto;
+        background: rgba(255, 255, 255, 0.9);
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+
+    h1 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .recipe-table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .recipe-table th,
+    .recipe-table td {
+        border: 1px solid #ddd;
+        padding: 15px;
+        vertical-align: top;
+    }
+
+    .recipe-table th {
+        background-color: #333;
+        color: #fff;
+        font-size: 18px;
+    }
+
+    .recipe-table ul,
+    .recipe-table ol {
+        padding-left: 20px;
+        margin: 0;
+    }
+
+    .recipe-table li {
+        margin-bottom: 8px;
+    }
+</style>
+
+</head>
+<body>
+     <a href="index.html" class="back-btn">&#8592</a>
+  <div class="recipe-container">
+    <h1>Iced Coffee</h1>
+
+    <table class="recipe-table">
+        <thead>
+            <tr>
+                <th>Ingredients</th>
+                <th>Procedure</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <ul>
+                        <li>Coffee: 1 cup Strong Brewed Coffee (use double the grounds if brewing hot) or Cold Brew.</li>
+                        <li>Sweetener: 1–2 tbsp Simple Syrup or Sugar (syrup dissolves better in cold drinks).</li>
+                        <li>Creamer: ¼ cup Milk, Half-and-half, or Oat milk.</li>
+                        <li>Ice: 1–2 cups Fresh Ice Cubes.</li>
+                        <li>Optional: A drop of Vanilla Extract or a pinch of Cinnamon.</li>
+                        
+                    </ul>
+                </td>
+            <td>
+                <ol>
+                    <li>Brew Strong: Brew your coffee at double strength (use 4 tablespoons of grounds for 1 cup of water). If using hot coffee, let it sit for 5 minutes to cool slightly.</li>
+                    <li>Sweeten First: Stir your sugar or syrup into the hot coffee before adding ice. This ensures it dissolves completely.</li>
+                    <li>The "Chill" Step: Fill a tall glass to the brim with ice. Pour the warm, sweetened coffee over the ice.</li>
+                    <li>Add Dairy: Pour in your milk or creamer. Watch the "marble" effect as it swirls through the dark coffee.</li>
+                    <li>Final Stir: Give it a quick stir to even out the temperature and flavor.</li>
+                </ol>
+            </td>
+            </tr>
+        </tbody>
+    </table>
+  </div>
+
+</body>
+</html>

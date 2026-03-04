@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheesy Nachos</title>
+<style>
+    body {
+        margin: 0;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        background-image: url("cheesy nachos.jpeg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .back-btn {
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        width: 250;
+        height: 45px;
+        background:rgba(0, 0, 0, 0.6);
+        color: white;
+        text-decoration: none;
+        font-size: 22px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        transition: 0.3s ease;
+        z-index: 1000;
+    }
+
+    .recipe-container {
+        transform: translateY(80px);
+        max-width: 700px;
+        margin: auto;
+        background: rgba(255, 255, 255, 0.9);
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+
+    h1 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .recipe-table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .recipe-table th,
+    .recipe-table td {
+        border: 1px solid #ddd;
+        padding: 15px;
+        vertical-align: top;
+    }
+
+    .recipe-table th {
+        background-color: #333;
+        color: #fff;
+        font-size: 18px;
+    }
+
+    .recipe-table ul,
+    .recipe-table ol {
+        padding-left: 20px;
+        margin: 0;
+    }
+
+    .recipe-table li {
+        margin-bottom: 8px;
+    }
+</style>
+
+</head>
+<body>
+    <a href="index.html" class="back-btn">&#8592</a>
+  <div class="recipe-container">
+    <h1>Cheesy Nachos</h1>
+
+    <table class="recipe-table">
+        <thead>
+            <tr>
+                <th>Ingredients</th>
+                <th>Procedure</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <ul>
+                        <li>1 large pack of tortilla chips (around 200–250 g).</li>
+                        <li>1 cup grated cheese (cheddar, mozzarella, or a mix).</li>
+                        <li>½ cup jalapeño slices (optional, for spice).</li>
+                        <li>½ cup black olives (sliced).</li>
+                        <li>1 small onion, finely chopped.</li>
+                        <li>1 tomato, finely chopped (seeds removed).</li>
+                        <li>¼ cup corn kernels (optional).</li>
+                        <li>Salt and black pepper to taste.</li>
+                    </ul>
+                </td>
+            <td>
+                <ol>
+                    <li>Preheat: Set oven to 400°F (200°C).</li>
+                    <li>Layer: On a sheet pan, do half the chips, half the cheese, and half the protein. Repeat for a second layer.</li>
+                    <li>Bake: Heat for 5–8 minutes until the cheese is bubbly.</li>
+                    <li>Top: Add fresh veggies (tomatoes, onions) and cold dollops (sour cream, guac) just before serving.</li>
+                </ol>
+            </td>
+            </tr>
+        </tbody>
+    </table>
+  </div>
+
+</body>
+</html>
