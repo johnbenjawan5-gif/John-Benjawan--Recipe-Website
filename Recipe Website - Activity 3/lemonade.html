@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lemonade</title>
+<style>
+    body {
+        margin: 0;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        background-image: url("lemonade.jpeg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+.back-btn {
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        width: 250;
+        height: 45px;
+        background:rgba(0, 0, 0, 0.6);
+        color: white;
+        text-decoration: none;
+        font-size: 22px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        transition: 0.3s ease;
+        z-index: 1000;
+    }
+
+    .recipe-container {
+        transform: translateY(80px);
+        max-width: 700px;
+        margin: auto;
+        background: rgba(255, 255, 255, 0.9);
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+
+    h1 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .recipe-table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .recipe-table th,
+    .recipe-table td {
+        border: 1px solid #ddd;
+        padding: 15px;
+        vertical-align: top;
+    }
+
+    .recipe-table th {
+        background-color: #333;
+        color: #fff;
+        font-size: 18px;
+    }
+
+    .recipe-table ul,
+    .recipe-table ol {
+        padding-left: 20px;
+        margin: 0;
+    }
+
+    .recipe-table li {
+        margin-bottom: 8px;
+    }
+</style>
+
+</head>
+<body>
+    <a href="index.html" class="back-btn">&#8592</a>
+  <div class="recipe-container">
+    <h1>Lemonade</h1>
+
+    <table class="recipe-table">
+        <thead>
+            <tr>
+                <th>Ingredients</th>
+                <th>Procedure</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <ul>
+                        <li>Lemons: 4–6 large Fresh Lemons (about 1 cup of juice).</li>
+                        <li>Sweetener: 1 cup Granulated Sugar.</li>
+                        <li>Water: 6 cups Cold Water (divided).</li>
+                        <li>Ice: 2–3 cups.</li>
+                        <li>Optional: Fresh Mint leaves or Lemon slices for garnish.</li>
+                    </ul>
+                </td>
+            <td>
+                <ol>
+                    <li>Make Simple Syrup: In a small saucepan, combine 1 cup sugar and 1 cup water. Heat over medium until the sugar is completely dissolved. Let it cool slightly.</li>
+                    <li>Juice Lemons: Roll the lemons on the counter to loosen the juices, then squeeze until you have 1 cup of fresh lemon juice. Strain out any seeds.</li>
+                    <li>Combine: In a large pitcher, stir together the lemon juice, the simple syrup, and the remaining 5 cups of cold water.</li>
+                    <li>Chill: Stir well and taste. If it's too tart, add a splash more water; if it’s too sweet, add more lemon.</li>
+                    <li>Serve: Pour into glasses filled with ice. Add mint or lemon slices for a fancy finish.</li>
+                </ol>
+            </td>
+            </tr>
+        </tbody>
+    </table>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,335 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Yummy Recipes</title>
+
+<style>
+*{
+   box-sizing: border-box;
+   margin-top: 0;
+   padding: 0;
+   font-family: Arial, sans-serif;
+}
+
+.tittle {
+   font-family: Arial, Helvetica, sans-serif;
+}
+   
+.top-header {
+   background: #bd7358;
+   color: rgb(255, 255, 255);
+   text-align: center;
+   padding: 8px 10px;
+}
+
+.top-header h1 {
+   font-size: 50px;
+   font-weight: bold;
+}
+
+body {
+   background-color: #f9f9f9;
+   color: #000000;
+   font-size: medium;
+}
+  header h1 {
+   font-size: 14px;
+   margin-bottom: 5px;
+}
+
+header p {
+   font-size: 14px;
+   color: #000000;
+}
+
+nav {
+   background-color: #f8c79f;
+   padding: 12px;
+   text-align: center;
+}
+
+nav a {
+   color: rgb(0, 0, 0);
+   margin: 0 20px;
+   text-decoration: none;
+   font-weight: bold;
+}
+
+nav a:hover {
+   text-decoration: underline;
+}
+
+.container {
+   padding: 40px 20px;
+   max-width: 1200px;
+   margin: auto;
+}
+
+h2 {
+   margin: 40px 0 20px;
+   color: #333;
+   letter-spacing: 1px;
+}
+
+.recipes {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 25px;
+}
+
+.card {
+   background-color: white;
+   border-radius: 12px;
+   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+   overflow: hidden;
+   width: 23%;
+   min-width: 250px;
+   transition: transform 0.3s ease;
+}
+
+.card:hover {
+   transform: translateY(-5px);
+}
+  
+.card img {
+   width: 290px;
+   height: 300px;
+   object-fit: cover;
+   display: block;
+}
+
+.card-content {
+   padding: 18px;
+}
+
+.card-content h3 {
+   margin-bottom: 10px;
+   font-size: 17px; 
+}
+
+.card-content p {
+   font-size: 14px;
+   color: #666;
+   margin-bottom: 15px;
+}
+
+.card-content a {
+   display: inline-block;
+   padding: 8px 16px;
+   background-color: #f7a98f;
+   color: white;
+   text-decoration: none;
+   border-radius: 6px;
+   font-size: 13px;
+}
+
+.card-content a:hover {
+   background-color: #e6896f;
+}
+
+footer {
+   background-color: #050404ee;
+   color: #f8f4f4;
+   text-align: center;
+   padding: 3px;
+   margin-top: 8px;
+   font-size: 18px;
+}
+</style>
+</head>
+
+<body>
+   
+    <header>
+    <div class="top-header">
+      <h1 class="tittle"> Yummy Recipes</h1>
+      <p>Simple, Delicious, Homemade Meals</p>
+    </div>
+   
+<nav>
+    <a href="index.html">Home</a>
+    <a href="aboutus.html">About us</a>
+    <a href="contactus.html">Contact us</a>
+  </nav>
+</header>
+
+<div class="container">
+    
+    <!--MAIN DISH-->
+  <h2>Main Dishes</h2>
+  <div class="recipes">
+
+    <div class="card">
+     <img src="carbonara.jpeg" alt="Spaghetti">
+     <div class="card-content">
+        <h3>Spaghetti Carbonara</h3>
+        <p>Creamy Italian pasta with egss, cheese,and bacon.</p>
+        <a href="carbonara.index.html">View Recipe</a>
+     </div>
+   </div>
+
+ <div class="card">
+     <img src="fried chicken.jpeg" alt="Fried Chicken">
+     <div class="card-content">
+        <h3>Crispy Fried Chicken</h3>
+        <p>Golden and crunchy outside, juicy inside.</p>
+        <a href="fried chicken.html">View Recipe</a>
+     </div>
+   </div>
+
+ <div class="card">
+     <img src="grilled salmon.jpeg" alt="Grilled Salmon">
+     <div class="card-content">
+        <h3>Grilled Salmon</h3>
+        <p>Perfectly grilled salmon with herbs and lemon.</p>
+        <a href="grilled salmon.html">View Recipe</a>
+     </div>
+   </div>
+
+    <div class="card">
+     <img src="beef steak.jpeg" alt="Beef Steak">
+     <div class="card-content">
+        <h3>Beef Steak</h3>
+        <p>Tender and flavorful beef cooked to perfection.</p>
+        <a href="beef.html">View Recipe</a>
+     </div>
+   </div>
+
+</div>
+
+<!--APPETIZER-->
+<h2>Appetizer</h2>
+<div class="recipes">
+
+    <div class="card">
+     <img src="tomato bruschetta.jpeg" alt="Bruschetta">
+     <div class="card-content">
+        <h3>Tomato Bruschetta</h3>
+        <p>Toasted bread with fresh tomatoes and basil.</p>
+        <a href="tomato bruschetta.html">View Recipe</a>
+     </div>
+  </div>
+
+ <div class="card">
+     <img src="spring roll.jpeg" alt="Spring Rolls">
+     <div class="card-content">
+        <h3>Spring Rolls</h3>
+        <p>Crispy rolls filled with vegetables and meet.</p>
+        <a href="spring rolls.html">View Recipe</a>
+     </div>
+  </div>
+
+<div class="card">
+     <img src="garlic bread.jpeg" alt="Garlic Bread">
+     <div class="card-content">
+        <h3>Garlic Bread</h3>
+        <p>Warm bread topped with garlic butter and herbs.</p>
+        <a href="garlic bread.html">View Recipe</a>
+     </div>
+  </div>
+
+<div class="card">
+     <img src="cheesy nachos.jpeg" alt="Nachos">
+     <div class="card-content">
+        <h3>Cheesy Nachos</h3>
+        <p>Crispy chips topped with melted cheese and salsa.</p>
+        <a href="cheesy nachos.html">View Recipe</a>
+     </div>
+  </div>
+
+</div>
+
+<!--DESSERTS-->
+<h2>DESSERT</h2>
+<div class="recipes">
+
+    <div class="card">
+      <img src="chocolate cake.jpeg" alt="Chocolate Cake">
+      <div class="card-content">
+         <h3>Chocolate Cake</h3>
+         <p>Rich and moist cake with chocolate frosting.</p>
+         <a href="chocolate cake.html">View Recipe</a>
+      </div>
+    </div>
+
+ <div class="card">
+      <img src="mango float.jpeg" alt="Mango Float">
+      <div class="card-content">
+         <h3>Mango Float</h3>
+         <p>A no-bake Filipino dessert layered with mangoes.</p>
+         <a href="mango float.html">View Recipe</a>
+      </div>
+    </div>
+
+ <div class="card">
+      <img src="vanilla ice cream.jpeg" alt="Ice Cream">
+      <div class="card-content">
+         <h3>Vanilla Ice Cream</h3>
+         <p>Creamy and smooth classic vanilla flavor.</p>
+         <a href="vanilla ice cream.html">View Recipe</a>
+      </div>
+    </div>
+
+     <div class="card">
+      <img src="blueberry cheesecake.jpeg" alt="Cheesecake">
+      <div class="card-content">
+         <h3>Blueberry Cheesecake</h3>
+         <p>Sweet and creamy cheesecake topped with blueberries.</p>
+         <a href="blueberry cheesecake.html">View Recipe</a>
+      </div>
+    </div>
+
+ </div>
+
+ <!--DRINKS-->
+<h2>Drinks</h2>
+<div class="recipes">
+
+    <div class="card">
+      <img src="iced coffee.jpeg" alt="Iced Coffee">
+      <div class="card-content">
+         <h3>Iced Coffee</h3>
+         <p>Chilled coffee serve with milk and ice.</p>
+         <a href="iced coffee.html">View Recipe</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="lemonade.jpeg" alt="Lemonade">
+      <div class="card-content">
+         <h3>Fresh Lemonade</h3>
+         <p>Refreshing drink made with fresh lemons.</p>
+         <a href="lemonade.html">View Recipe</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="strawberry smoothie.jpeg" alt="Smoothie">
+      <div class="card-content">
+         <h3>Strawberry Smoothie</h3>
+         <p>Blended strawberries with yogurt and milk.</p>
+         <a href="strawberry smoothie.html">View Recipe</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="classic milktea.jpeg" alt="Milk Tea">
+      <div class="card-content">
+         <h3>Classic Milk Tea</h3>
+         <p>Sweet milk tea with chewy tapioca pearls.</p>
+         <a href="classic milktea.html">View Recipe</a>
+      </div>
+    </div>
+
+</div>
+
+</div>
+
+<footer>
+   <p>2026 Yummy Recipes</p>
+</footer>
+
+</body>
+</html>
